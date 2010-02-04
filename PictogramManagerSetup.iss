@@ -55,7 +55,7 @@ Name: {group}\{#MyAppName}; Filename: {app}\{#MyAppExeName}; WorkingDir: {app}
 Filename: {app}\{#MyAppExeName}; Description: {cm:LaunchProgram,{#MyAppName}}; Flags: nowait postinstall skipifsilent unchecked
 
 [INI]
-Filename: {win}\PictogramManager.INI; Section: Inst; Key: Dir; String: {app}; Flags: createkeyifdoesntexist
+Filename: {win}\PictogramManager.INI; Section: Inst; Key: Dir; String: {app}
 
 Filename: {app}\PictogramManager.INI; Section: PIns; Key: left; String: 20; Flags: createkeyifdoesntexist
 Filename: {app}\PictogramManager.INI; Section: PIns; Key: top; String: 20; Flags: createkeyifdoesntexist
