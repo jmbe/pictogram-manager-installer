@@ -21,14 +21,11 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\PictogramManager
 DefaultGroupName=Specialpedagogiska skolmyndigheten
 DisableProgramGroupPage=yes
-OutputBaseFilename=PictogramManagerSetup
 Compression=lzma
 SolidCompression=true
 DisableReadyPage=false
 ShowLanguageDialog=auto
 
-[Languages]
-Name: Swedish; MessagesFile: Swedish-10-5.1.12.isl
 
 [Files]
 Source: Files\PictogramManager.exe; DestDir: {app}; Flags: ignoreversion
